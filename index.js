@@ -27,7 +27,7 @@ function aumentarPrecioBaseMap(productos, monto) {
         producto.precioBase += monto;
         return producto;
     });
-}
+}  
 
 aumentarPrecioForEach(carrito, 10);
 console.log("Coca: " + coca.precioBase); // 20
